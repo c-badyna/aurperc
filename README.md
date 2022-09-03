@@ -1,45 +1,20 @@
-# anii.life
-
-## Installation
-```js
-npm i anii.life@latest
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](http://www.typescriptlang.org/)
+[![CircleCI](https://circleci.com/gh/aurperc/aurperc.svg?style=shield)](https://circleci.com/gh/aurperc/aurperc)
+[![npm version](https://badge.fury.io/js/%40aurperc%2Fkernel.svg)](https://badge.fury.io/js/%40aurperc%2Fkernel)
+# aurperc
+At the moment, the range is not large, but there will be more in the future. List of interactions:
 ```
-
-## Functions
-| Name | Description |
-| -------- | ----------- |
-| `hug` | Get a gif of hugs 0w0 |
-
-## Examples
-— 1:
-```js
-const { Anii } = require('anii.life');
-const anii = Anii;
+@hug
+```
+# Code
+For the latest stable version:
+```
+const { AuClient } = require('aurperc');
+const au = AuClient;
 
 function test() {
-  console.log(anii.hug())
+  console.log(au.hug())
 }
 test();
-```
-returns:
-```js
-{
-  url: 'https://c.tenor.com/TfIvMiC32_0AAAAS/shintaro-kisaragi-ayano-tateyama.gif'
-}
-```
-  
-— 2:
-```js
-const { Anii } = require('anii.life');
-const anii = Anii;
-
-function test() {
-  let data = anii.hug();
-  console.log(data.url)
-}
-test();
-```
-returns:
-```
-https://c.tenor.com/TfIvMiC32_0AAAAS/shintaro-kisaragi-ayano-tateyama.gif
 ```
