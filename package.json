@@ -1,0 +1,23 @@
+{
+  "name": "aurperc",
+  "version": "2.2.1",
+  "description": "Library for generating various GIF images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Кобаньчик",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IKobaKI/aurperc.git"
+  },
+  "keywords": [
+    "aurperc",
+    "random-gifs-interactions"
+  ],
+  "bugs": {
+    "url": "https://github.com/IKobaKI/aurperc/issues"
+  },
+  "homepage": "https://github.com/IKobaKI/aurperc#readme"
+}
